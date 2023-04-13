@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
         User::create([
             'id' => 1,
             'name' => "Macel Admin",
-            'email' => "fornalezamaricel@gmail.com",
+            'email' => 'fornalezamaricel@gmail.com',
             'email_verified_at' => Carbon::now(),
             'password' => Hash::make('password'),
             'remember_token' => Str::random(10),
